@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className="app">
       <header className="header">
-        <h1 className="shop-title">Shop Homepage</h1>
+        <h1 className="shop-title"><img src='../src/assets/images/appleLogo.png' className='Logo'/> Apple</h1>
       </header>
       <main className="main-content">
         <ProductList addToCart={addToCart} cart={cart} />

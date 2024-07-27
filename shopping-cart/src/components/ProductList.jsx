@@ -1,12 +1,16 @@
-import React from 'react';
+
 import PropTypes from 'prop-types';
 import ProductItem from './ProductItem';
 import '../styles/ProductList.css';
 
 
 const products = [
-  { id: 1, name: 'Airpods Max', description: 'This is product 1.', img: '../src/assets/images/airpods.jpg', rating: 4, price: '$10.00' },
-  { id: 2, name: 'Product 2', description: 'This is product 2.', img: 'path/to/image2.jpg', rating: 5, price: '$20.00' },
+  { id: 1, name: 'Airpods Max',  img: '../src/assets/images/airpods.jpg', rating: 4, price: '$1100.00' },
+  { id: 2, name: 'iPad Pro',  img: '../src/assets/images/ipadPro.jpg', rating: 5, price: '$1500.00' },
+  { id: 3, name: 'iPad 2',  img: '../src/assets/images/ipadPro.jpg', rating: 5, price: '$1500.00' },
+  { id: 4, name: 'iPad 3',  img: '../src/assets/images/ipadPro.jpg', rating: 5, price: '$1500.00' },
+  { id: 5, name: 'iPad 4',  img: '../src/assets/images/ipadPro.jpg', rating: 5, price: '$1500.00' },
+  { id: 6, name: 'iPad 5',  img: '../src/assets/images/ipadPro.jpg', rating: 5, price: '$1500.00' }
   // Add more products as needed
 ];
 

@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
-    flex: 3;
+    column-gap: 20px;
+    row-gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
