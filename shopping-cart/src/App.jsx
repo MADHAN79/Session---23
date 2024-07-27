@@ -26,6 +26,9 @@ const App = () => {
         <ProductList addToCart={addToCart} cart={cart} />
         <Cart cart={cart} />
       </main>
+      <footer>
+        <p>Copyright @ MADHAN FSD61WDT 2024</p>
+      </footer>
     </div>
   );
 };
