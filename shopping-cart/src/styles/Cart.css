@@ -1,6 +1,7 @@
 .cart {
     flex: 1;
-    background-color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    
     border: 1px solid #dee2e6;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -10,12 +11,13 @@
   }
   
   .cart h2 {
-    color: #343a40;
+    color: #ffffff;
   }
   
   .cart ul {
     list-style-type: none;
     padding: 0;
+    color: #ffffff;
   }
   
   .cart-item {

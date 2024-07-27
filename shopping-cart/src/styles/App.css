@@ -1,20 +1,19 @@
 body {
   background: url(../assets/images/appleOffice.jpeg);
   background-repeat: no-repeat;
-  background-size:calc(191vh);
-  font-family:"'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" ;
+  background-size:cover;
   
+  font-family:"'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" ;
 }
 
 .app {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 20px;
   text-align: center;
 }
 
 .header {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(3px);
   color: #000000;
   padding: 10px;
@@ -42,7 +41,11 @@ body {
 }
 
 
-
+@media (max-width: 500px) {
+  body {
+    background: #000000; /* Change background color */
+  }
+}
 
 
 
