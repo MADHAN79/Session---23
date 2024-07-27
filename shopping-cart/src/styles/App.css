@@ -24,7 +24,6 @@ body {
 
 .shop-title {
   margin: 0;
-
 }
 
 .main-content {
@@ -49,13 +48,14 @@ footer{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 450px) {
   body {
     background: #000000; /* Change background color */
   }
   .header{
     color:white;
   }
+  
 }
 
 
