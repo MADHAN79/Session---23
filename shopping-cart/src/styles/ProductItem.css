@@ -83,4 +83,22 @@
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
   }
+  .main-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .cart{
+    margin: -15px 0px 20px auto;
+  }
+  .cart ul{
+    text-align: left;
+    font-size: 15px;
+    margin-left: -10px;
+  }
+  .header{
+    margin:15px;
+    background: rgba(255, 255, 255, 0.2);
+    border:2px solid white;
+  }
 }
