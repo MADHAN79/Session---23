@@ -1,3 +1,15 @@
-###Session - 23
+Session - 23
 
-#Shopping Cart Task
+# Shopping Cart Task
+
+### How to run/use the application:
+
+1. Click on the "Add to cart" button to add the product to your cart.
+2. You can add as many products as you wish in the cart.
+3. You can see the total number of products added to the cart at the top.
+4. If you don't want the product anymore, click the "Remove from cart" button to remove the product from the cart.
+5. Only the products you have added will be in your cart and not the removed ones.
+
+
+Don't forget to hover over the cards to see the fun :) 
+Happy shopping :)
