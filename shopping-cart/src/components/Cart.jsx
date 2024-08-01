@@ -1,10 +1,11 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import '../styles/Cart.css';
 
+//displaying the number of items in the cart
 const Cart = ({ cart }) => {
   const totalItems = cart.length;
 
+  //logic for displaying the added items & removing the items from the cart
   const cartItems = cart.reduce((acc, item) => {
     const existingItem = acc.find(i => i.id === item.id);
     if (existingItem) {
@@ -29,6 +30,7 @@ const Cart = ({ cart }) => {
   );
 };
 
+//Ensuring all the details are getting added in cart with isRequired method
 Cart.propTypes = {
   cart: PropTypes.arrayOf(PropTypes.shape({
     id: PropTypes.number.isRequired,

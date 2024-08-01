@@ -14,6 +14,7 @@ const products = [
   // Add more products as needed
 ];
 
+//Each Product cards details are dynamically updated with this logic below
 const ProductList = ({ addToCart, cart }) => {
   return (
     <div className="product-list">
@@ -29,6 +30,7 @@ const ProductList = ({ addToCart, cart }) => {
   );
 };
 
+//Ensuring all the details are added to the product cards with isRequired method
 ProductList.propTypes = {
   addToCart: PropTypes.func.isRequired,
   cart: PropTypes.arrayOf(PropTypes.shape({

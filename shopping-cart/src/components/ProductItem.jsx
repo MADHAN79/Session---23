@@ -4,6 +4,7 @@ import '../styles/ProductItem.css';
 const ProductItem = ({ product, addToCart, cart }) => {
   const inCart = cart.some(item => item.id === product.id);
 
+  //INDIVIDUAL product cards are aligned with its details to be displayed in each product cards.
   return (
     <div className="product-item">
       <img src={product.img} alt={product.name} className="product-image" />
@@ -23,6 +24,7 @@ const ProductItem = ({ product, addToCart, cart }) => {
   );
 };
 
+//Ensuring all the details are getting added in each product cards with isRequired method
 ProductItem.propTypes = {
   product: PropTypes.shape({
     id: PropTypes.number.isRequired,

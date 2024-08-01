@@ -6,6 +6,7 @@ import Cart from './components/Cart';
 const App = () => {
   const [cart, setCart] = useState([]);
 
+  //Product add to cart logic
   const addToCart = (product) => {
     setCart(prevCart => {
       const itemInCart = prevCart.find(item => item.id === product.id);
@@ -17,6 +18,7 @@ const App = () => {
     });
   };
 
+  //Layout for the products and cart is coded here
   return (
     <div className="app">
       <header className="header">
